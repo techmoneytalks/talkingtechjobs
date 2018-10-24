@@ -31,10 +31,10 @@
 			        thumb_links: 0, // Individual thumb links for each slide
 			        thumbnail_navigation: 0, // Thumbnail navigation
 			        slides: [ // Slideshow Images
-			            { image: './images/slider/image1.jpg', title: 'Career Acceleration In Technology <div class="slidedescription">Looking to make a carrer change into Technology? <br>I&apos;m here to help.</div>', thumb: '', url: '' },
-			            { image: './images/slider/image3.jpg', title: 'Career Acceleration In Technology <div class="slidedescription">Looking to make a carrer change into Technology? <br>I&apos;m here to help.</div>', thumb: '', url: '' },
-			            { image: './images/slider/image2.jpg', title: 'Career Acceleration In Technology <div class="slidedescription">Looking to make a carrer change into Technology? <br>I&apos;m here to help.</div>', thumb: '', url: '' },
-			            { image: './images/slider/image4.jpg', title: 'Career Acceleration In Technology <div class="slidedescription">Looking to make a carrer change into Technology? <br>I&apos;m here to help.</div>', thumb: '', url: '' }
+			            { image: './images/slider/image1.jpg', title: 'Career Acceleration In Technology <div class="slidedescription">with Brian McCumber <br>I&apos;m here to help.</div>', thumb: '', url: '' },
+			            { image: './images/slider/image3.jpg', title: 'Career Acceleration In Technology <div class="slidedescription">with Brian McCumber <br>I&apos;m here to help.</div>', thumb: '', url: '' },
+			            { image: './images/slider/image2.jpg', title: 'Career Acceleration In Technology <div class="slidedescription">with Brian McCumber <br>I&apos;m here to help.</div>', thumb: '', url: '' },
+			            { image: './images/slider/image4.jpg', title: 'Career Acceleration In Technology <div class="slidedescription">with Brian McCumber <br>I&apos;m here to help.</div>', thumb: '', url: '' }
 			        ],
 
 			        // Theme Options			   
