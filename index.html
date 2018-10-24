@@ -38,31 +38,6 @@
     <!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-
-    <!-- Start of Async Drift Code -->
-    <script>
-        ! function() {
-            var t;
-            if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void(window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0,
-                t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
-                t.factory = function(e) {
-                    return function() {
-                        var n;
-                        return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
-                    };
-                }, t.methods.forEach(function(e) {
-                    t[e] = t.factory(e);
-                }), t.load = function(t) {
-                    var e, n, o, i;
-                    e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"),
-                        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js",
-                        n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
-                });
-        }();
-        drift.SNIPPET_VERSION = '0.3.1';
-        drift.load('6ivkht878nf2');
-    </script>
-    <!-- End of Async Drift Code -->
 </head>
 
 <body>
@@ -346,7 +321,26 @@
                 <h1>FREE Mini-Course</h1>
                 <p class="lead">FREE Mini-Course! 🔥🔥⠀<br><br>How to Get a High Paying Job Even If You Have No Degree <br><br>Watch the video and register.⠀<br><br>It's only available for a limited time.</p>
                 <hr>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/18LhuvBMmSM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <style>
+                    .embed-container {
+                        position: relative;
+                        padding-bottom: 56.25%;
+                        height: 0;
+                        overflow: hidden;
+                        max-width: 100%;
+                    }
+                    
+                    .embed-container iframe,
+                    .embed-container object,
+                    .embed-container embed {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                    }
+                </style>
+                <div class='embed-container'><iframe src='https://www.youtube.com/embed/undefined' frameborder='0' allowfullscreen></iframe></div>
                 <p class="lead">Go to <a href="http://minicourse.talkingtechjobs.com" target="_blank">http://minicourse.talkingtechjobs.com</a></p>
             </div>
 
